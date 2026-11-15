@@ -157,7 +157,7 @@ export const HeaderNav: React.FC<HeaderNavProps> = ({ activeTab, onSelectTab }) 
               <span className="hidden text-smoke md:inline">WHATSAPP CRM FLIGHT DECK</span>
             </div>
             <div className="hidden truncate font-mono text-[9.5px] uppercase text-smoke sm:block">
-              TARGET: {process.env.NEXT_PUBLIC_TARGET_NAME || process.env.NEXT_PUBLIC_STORE_NAME || 'COMMERCE STORE'} · 33 NODES · 7,650 SKUs
+              TARGET: {process.env.NEXT_PUBLIC_TARGET_NAME || process.env.NEXT_PUBLIC_STORE_NAME || 'COMMERCE STORE'} · 33 NODES · 8,000+ SKUs
             </div>
           </div>
         </div>

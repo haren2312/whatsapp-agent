@@ -193,7 +193,7 @@ export const RagStudio: React.FC = () => {
             {'//'} CLI TUI STUDIO & RETRIEVAL LAB · LIVE DATABASE CONNECTED
           </span>
           <h2 className="text-lg sm:text-xl font-normal text-chalk tracking-tight">
-            Pruebas de Búsqueda Híbrida & SNR (7.650 SKUs)
+            Pruebas de Búsqueda Híbrida & SNR (+8.000 SKUs)
           </h2>
         </div>
         <div className="flex items-center gap-2 bg-[#121212] border border-graphite px-2.5 py-1 font-mono text-[10.5px] sm:text-[11px] text-pulse-green flex-shrink-0">
@@ -212,7 +212,7 @@ export const RagStudio: React.FC = () => {
               <div className="border border-compass-gold/30 bg-compass-gold/[0.03] p-2 sm:p-2.5 mb-2 select-none font-mono">
                 <div className="flex items-center justify-between text-[11px] sm:text-xs text-gold-bright font-semibold tracking-wide">
                   <span>HYBRID RETRIEVAL BENCHMARK v2.4</span>
-                  <span className="text-[10px] text-smoke font-normal">7,650 SKUs</span>
+                  <span className="text-[10px] text-smoke font-normal">8,000+ SKUs</span>
                 </div>
                 <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 text-[10px] sm:text-[10.5px] text-smoke mt-0.5">
                   <span>Exact Recall: <span className="text-pulse-green font-medium">76.9%</span></span>

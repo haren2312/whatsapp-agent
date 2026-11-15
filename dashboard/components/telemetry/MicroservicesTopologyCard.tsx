@@ -70,7 +70,7 @@ export const MicroservicesTopologyCard: React.FC = () => {
       title: 'BASE VECTORIAL (SUPABASE)',
       status: 'pgvector / HNSW Cosine',
       statusType: 'online',
-      latency: '7.650 SKUs',
+      latency: '+8.000 SKUs',
       detail: 'PostgreSQL 15 + pg_trgm GIN',
       icon: Database,
       activeOnStages: [3],
@@ -310,7 +310,7 @@ export const MicroservicesTopologyCard: React.FC = () => {
           </div>
           <div className="flex items-center gap-1.5 text-smoke truncate">
             <Server className="h-3 w-3 text-gold-bright flex-shrink-0" />
-            <span className="text-chalk truncate">7.650 SKUs Catálogo</span>
+            <span className="text-chalk truncate">+8.000 SKUs Catálogo</span>
           </div>
           <div className="flex items-center gap-1.5 text-smoke truncate">
             <Zap className="h-3 w-3 text-gold-bright flex-shrink-0" />

@@ -13,7 +13,7 @@ export const DEMO_ARCHITECTURE_PILLARS: RecruiterArchitectureMetric[] = [
     title: 'Pipeline RAG de 5 Capas',
     value: 'Sub-14ms AST Match',
     badge: 'Zero Hallucination',
-    description: 'Búsqueda determinista escalonada sobre catálogo de 7.650 SKUs ferreteros e industriales.',
+    description: 'Búsqueda determinista escalonada sobre catálogo de más de 8.000 SKUs ferreteros e industriales.',
     technicalDetails: [
       'Capa 01: Determinismo AST Regex (<2ms, 0 tokens, 100% exactitud)',
       'Capa 02: Normalización & Diccionario de Sinónimos de Taller',
@@ -170,7 +170,7 @@ export const DEMO_CONVERSATIONS: Conversation[] = [
       {
         id: 'm4-2',
         sender: 'agent',
-        text: '¡Saludos Diego! 👨🏻‍🔧 Lista verificada en catálogo de 7.650 SKUs. Disponemos de cable THW 100% cobre y tubería PVC rígida con curvas de fábrica. Presupuesto total procesado.',
+        text: '¡Saludos Diego! 👨🏻‍🔧 Lista verificada en catálogo de más de 8.000 SKUs. Disponemos de cable THW 100% cobre y tubería PVC rígida con curvas de fábrica. Presupuesto total procesado.',
         time: '12:15 PM',
         latency: '28ms',
         cost: '$0.0000',

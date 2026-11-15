@@ -174,7 +174,7 @@ export async function POST(req: NextRequest) {
         sku: firstProd ? `SKU-DB` : 'N/A',
         productName: firstProd
           ? `${firstProd.nombre} ${firstProd.disponible ? '[DISPONIBLE]' : '[AGOTADO]'}`
-          : 'Sin coincidencias directas en catálogo de 7.650 SKUs',
+          : 'Sin coincidencias directas en catálogo de más de 8.000 SKUs',
         price: firstProd
           ? `${firstProd.precio_divisas_texto || '$ —'} (${firstProd.precio_bs_texto || 'Bs. —'})`
           : 'N/A',

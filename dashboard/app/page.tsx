@@ -159,7 +159,7 @@ export default function FlightDeckDashboard() {
         const botResponses = [
           '¡Con gusto! El producto solicitado se encuentra disponible en inventario para entrega inmediata. Aceptamos Pago Móvil a tasa BCV, Zelle y transferencias.',
           'Entendido. He registrado tu pedido en el sistema. ¿Deseas coordinar el retiro en tienda física o despacho en camión?',
-          'Cotización verificada en catálogo de 7.650 SKUs. Precios exactos de base de datos sin recargos sorpresa.',
+          'Cotización verificada en catálogo de más de 8.000 SKUs. Precios exactos de base de datos sin recargos sorpresa.',
         ];
         const randomResp = botResponses[Math.floor(Math.random() * botResponses.length)];
         const botMsg: ChatMessage = {

@@ -74,7 +74,7 @@ export const ThinkingOrb: React.FC<ThinkingOrbProps> = ({
 
   const stateLabels: Record<OrbState, string> = {
     idle: 'COGNITIVE ENGINE IDLE',
-    searching_rag: 'INICIALIZANDO MOTOR RAG (7.650 SKUs)...',
+    searching_rag: 'INICIALIZANDO MOTOR RAG (+8.000 SKUs)...',
     thinking_llm: 'LUNA REASONING...',
     dispatched: 'MATCH ENCONTRADO EN BASE DE DATOS',
     error: 'ERROR EN CONSULTA',

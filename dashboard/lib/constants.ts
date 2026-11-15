@@ -118,7 +118,7 @@ export const INITIAL_CONVERSATIONS: Conversation[] = [
       {
         id: "m-diego-2",
         sender: "agent",
-        text: "¡Saludos Diego! 👨🏻‍🔧 Lista verificada en catálogo de 7.650 SKUs. Disponemos de cable THW 100% cobre y tubería PVC rígida con curvas de fábrica. Presupuesto total procesado.",
+        text: "¡Saludos Diego! 👨🏻‍🔧 Lista verificada en catálogo de más de 8.000 SKUs. Disponemos de cable THW 100% cobre y tubería PVC rígida con curvas de fábrica. Presupuesto total procesado.",
         time: "12:15",
         latency: "28ms (pgvector + GIN)",
         cost: "$0.0000",

@@ -82,7 +82,7 @@ export const LiveLogStream: React.FC = () => {
         stageIndex: 3,
         tag: 'info' as const,
         tagLabel: 'LAYER 1 AST',
-        msg: `Determinismo AST: Coincidencia exacta "${selectedProd.name}" (${selectedProd.sku}) en catálogo de 7.650 SKUs`,
+        msg: `Determinismo AST: Coincidencia exacta "${selectedProd.name}" (${selectedProd.sku}) en catálogo de más de 8.000 SKUs`,
         delay: 2500,
       },
       {

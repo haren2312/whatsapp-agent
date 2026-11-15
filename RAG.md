@@ -6,7 +6,7 @@ funcionaron, para no volver a pagarlos.
 
 > **Lo primero que hay que entender:** esto **no es un RAG de manual**. Un RAG clásico
 > recupera pasajes de prosa para dárselos a un LLM. Aquí se recupera de un catálogo de
-> **7.650 cadenas de SKU de ~36 caracteres** (`TAPA DE INODORO CIERRE SUAVE 17X14 BEIGE
+> **más de 8.000 cadenas de SKU de ~36 caracteres** (`TAPA DE INODORO CIERRE SUAVE 17X14 BEIGE
 > AQUAFINA`), que no es prosa. Casi todo lo que la literatura da por bueno para RAG rinde
 > distinto sobre este material, y hay evidencia medida más abajo de exactamente cómo.
 
@@ -52,10 +52,10 @@ Y una señal transversal que **reordena** el resultado de cualquier capa:
 
 | Tabla | Filas | Qué guarda | Quién la mantiene |
 | :--- | ---: | :--- | :--- |
-| `productos` | 7.650 | Catálogo, sincronizado desde HybridLite | backend POS / ERP |
+| `productos` | +8.000 | Catálogo, sincronizado desde HybridLite | backend POS / ERP |
 | `catalogo_vocabulario` | 3.495 | `termino → canonico` coloquial | `generar_vocabulario.js` |
 | `catalogo_vocab_categorias` | ~710 | Hash md5 **por categoría** | idem |
-| `productos_embedding` | 7.650 | `vector(1536)` + HNSW coseno | `generar_embeddings.js` |
+| `productos_embedding` | +8.000 | `vector(1536)` + HNSW coseno | `generar_embeddings.js` |
 | `producto_descripcion` | 3.728 | Descripción en lenguaje natural (Luna) | `generar_descripciones.js` |
 | `producto_popularidad` | 4.680 | Facturas 90d/365d + score | `refrescar_popularidad_reciente()` |
 
@@ -178,7 +178,7 @@ posible** y la capa es inservible por diseño, por muy bien que parezca acertar.
 | Concepto | Coste | Frecuencia |
 | :--- | ---: | :--- |
 | Diccionario (3.448 términos) | $0.19 | una vez |
-| Embeddings v2 (7.650) | $0.0043 | una vez |
+| Embeddings v2 (+8.000) | $0.0043 | una vez |
 | Embeddings v3 (3.728) | $0.0076 | una vez |
 | Descripciones (3.728) | $0.11 | una vez |
 | Búsqueda normal | **$0** | por consulta |
